@@ -1,0 +1,14 @@
+{% if AUTHOR_ABOUT %}
+  <section>
+    <h1>About</h1>
+      <p>
+        {% if SIDEBAR_IMAGE %}
+          <img src="{{ SITEURL }}/{{ SIDEBAR_IMAGE }}" alt="{{ SIDEBAR_IMAGE_ALT}}" width="{{SIDEBAR_IMAGE_WIDTH}}" style="margin-left: 1em; float: right"/>
+          {{ AUTHOR_ABOUT }}
+          <br clear="all">
+        {% else %}
+          {{ AUTHOR_ABOUT }}
+        {% endif %}
+      </p>
+  </section>
+{% endif %}

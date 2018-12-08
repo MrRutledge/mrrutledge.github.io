@@ -1,0 +1,33 @@
+<header>
+      {% include '_includes/qr_code.html' %}
+    {% if index %}
+      <h1 class="entry-title">
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags }}</a>
+      </h1>
+    {% else %}
+      <h1 class="entry-title">{{ article.title|striptags }}</h1>
+    {% endif %}
+    <p class="meta">
+      {% include '_includes/article_time.html' %}
+      {% include '_includes/article_stats.html' %}
+      {% if SHOW_DISQUS_COMMENT_COUNT and DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
+      {% import 'translations.html' as translations with context %}
+      {% if article.translations %} | {% endif %}
+      {{ translations.translations_for(article) }}
+    </p>
+</header>
+
+{% if index %}
+    {% if INDEX_FULL_CONTENT %}
+        <div class="entry-content">{{ article.content }}</div>
+    {% else %}
+        <div class="entry-content">{{ article.summary }}</div>
+        {% if article.summary != article.content %}
+            <footer>
+                <a rel="full-article" href="{{ SITEURL }}/{{ article.url }}">Read On &crarr;</a>
+            </footer>
+        {% endif %}
+    {% endif %}
+{% else %}
+    <div class="entry-content">{{ article.content }}</div>
+{% endif %}

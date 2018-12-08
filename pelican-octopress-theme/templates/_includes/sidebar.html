@@ -1,0 +1,29 @@
+{% set all_asides = ['social_icons', 'image', 'recentpost', 'categories', 'tags', 'github', 'social', 'links', 'twitter', 'gplus', 'google_adsense'] %}
+{% if page %}
+  {% if page.asides is defined %}
+    {% set asides = page.asides.split(",") %}
+  {% else %}
+    {% set asides = PAGE_ASIDES|default(all_asides) %}
+  {% endif %}
+{% elif article %}
+  {% if article.asides is defined %}
+    {% set asides = article.asides.split(",") %}
+  {% else %}
+    {% set asides = ARTICLE_ASIDES|default(all_asides) %}
+  {% endif %}
+{% else %}
+  {% set asides = INDEX_ASIDES|default(all_asides) %}
+{% endif %}
+
+{% if sidebar != "off" %}
+<aside class="sidebar">
+  {% if asides %}
+    {% for aside in asides %}
+      {% set aside = aside.strip().replace(".html", "") %}
+      {% if aside %}
+        {% include '_includes/asides/' + aside + ".html" ignore missing %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</aside>
+{% endif %}

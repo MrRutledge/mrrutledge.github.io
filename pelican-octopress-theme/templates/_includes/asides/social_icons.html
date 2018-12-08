@@ -1,0 +1,7 @@
+{% if SOCIAL and DISPLAY_SOCIAL_ICONS|default(false) %}
+    <section id="sidebar-social-icons">
+        {% for name, link in SOCIAL %}
+            <a href="{{ link }}" target="_blank" class="fa fa-{{ name|lower }}"></a>
+        {% endfor %}
+    </section>
+{% endif %}
