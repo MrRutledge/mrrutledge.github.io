@@ -9,7 +9,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'MrRutledge'
 SITENAME = 'Karim2km.github.io'
-SITEURL = 'https://mrrutledge.github.io/'
+SITEURL = 'https://mrrutledge.github.io'
 
 PATH = 'content'
 

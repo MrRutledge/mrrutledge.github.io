@@ -1,7 +1,7 @@
-Date: 2018-12-09
-Title: Testing pelican
+date: 2018-12-09
+title: Testing pelican
 tags: pelican, staticsite
-Authour: KM
+tuthour: KM
 
 edonist Roots
 
