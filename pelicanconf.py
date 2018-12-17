@@ -7,6 +7,9 @@ SITENAME = u'MrRutledge'
 SITEURL = ''
 
 PATH = 'content'
+OUTPUT_PATH = '../'
+
+#CURRENT_YEAR = time.strftime("%Y")
 
 TIMEZONE = 'Europe/London'
 
@@ -41,13 +44,13 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('Google+', 'http://plus.google.com/userid',
          'fa fa-google-plus-square fa-fw fa-lg'),
-        ('Twitter', 'https://twitter.com/username',
+        ('Twitter', 'https://twitter.com/kareemrim',
          'fa fa-twitter-square fa-fw fa-lg'),
         ('LinkedIn', 'http://linkedin-url',
          'fa fa-linkedin-square fa-fw fa-lg'),
         ('BitBucket', 'http://bitbucket.org/username',
          'fa fa-bitbucket-square fa-fw fa-lg'),
-        ('GitHub', 'http://github.com/username',
+        ('GitHub', 'http://github.com/mrrutledge',
          'fa fa-github-square fa-fw fa-lg'),)
 
 DEFAULT_PAGINATION = False
