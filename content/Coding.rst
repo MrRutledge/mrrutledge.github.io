@@ -1,7 +1,10 @@
-date: 2018-12-09
-title: Testing pelican
-tags: pelican, staticsite
-tuthour: KM
+Title: Welcome All
+Slug: welcome-all
+Date: 2016-07-18 19:19
+Category: Python
+Tags: pelican, publishing
+Author: Ka Mi
+Summary: Short version for index and feeds
 
 edonist Roots
 
