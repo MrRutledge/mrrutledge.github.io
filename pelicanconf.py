@@ -6,7 +6,7 @@ AUTHOR = u'MrRutledge'
 SITENAME = u'MrRutledge'
 SITEURL = ''
 
-PATH = 'content'
+PATH = './content/'
 OUTPUT_PATH = '../'
 
 #CURRENT_YEAR = time.strftime("%Y")
@@ -35,6 +35,17 @@ CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 # Default sidebar template. Omit this setting for single column mode without sidebar.
 SIDEBAR = "sidebar.html"
 
+# See https://pythonhosted.org/Markdown/reference.html#lazy_ol for lazy_ol settings
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+    'lazy_ol': False 
+}
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -48,8 +59,6 @@ SOCIAL = (('Google+', 'http://plus.google.com/userid',
          'fa fa-twitter-square fa-fw fa-lg'),
         ('LinkedIn', 'http://linkedin-url',
          'fa fa-linkedin-square fa-fw fa-lg'),
-        ('BitBucket', 'http://bitbucket.org/username',
-         'fa fa-bitbucket-square fa-fw fa-lg'),
         ('GitHub', 'http://github.com/mrrutledge',
          'fa fa-github-square fa-fw fa-lg'),)
 
