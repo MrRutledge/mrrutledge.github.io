@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MrRutledge - yeah</title><link href="https://mrrutledge.github.io/" rel="alternate"></link><link href="https://mrrutledge.github.io/feeds/yeah.atom.xml" rel="self"></link><id>https://mrrutledge.github.io/</id><updated>2004-02-10T18:40:00+00:00</updated><subtitle>Sub-title that goes underneath site name in jumbotron.</subtitle><entry><title>My super title</title><link href="https://mrrutledge.github.io/my-super-post.html" rel="alternate"></link><published>2003-10-10T10:20:00+01:00</published><updated>2004-02-10T18:40:00+00:00</updated><author><name>Alexis Metaireau</name></author><id>tag:mrrutledge.github.io,2003-10-10:/my-super-post.html</id><summary type="html">&lt;p class="first last"&gt;Short version for index and feeds&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;[Gunship](&lt;a class="reference external" href="https://www.gunshipmusic.com/"&gt;https://www.gunshipmusic.com/&lt;/a&gt;) is a &lt;em&gt;retro synthwave&lt;/em&gt; artist out of the UK.&lt;/p&gt;
+&lt;p&gt;[Revel in Your Time](&lt;a class="reference external" href="https://www.youtube.com/watch?v=uYRZV8dV10w"&gt;https://www.youtube.com/watch?v=uYRZV8dV10w&lt;/a&gt;),
+[Tech Noir](&lt;a class="reference external" href="https://www.youtube.com/watch?v=-nC5TBv3sfU"&gt;https://www.youtube.com/watch?v=-nC5TBv3sfU&lt;/a&gt;),
+[Fly for Your Life](&lt;a class="reference external" href="https://www.youtube.com/watch?v=Jv1ZN8c4_Gs"&gt;https://www.youtube.com/watch?v=Jv1ZN8c4_Gs&lt;/a&gt;)
+and
+[The Mountain](&lt;a class="reference external" href="https://www.youtube.com/watch?v=-HYRTJr8EyA"&gt;https://www.youtube.com/watch?v=-HYRTJr8EyA&lt;/a&gt;)
+are all quality songs by Gunship. Check out those amazing music videos!&lt;/p&gt;
+&lt;p&gt;Also take a look at other retro synthwave artists such as
+[Trevor Something](&lt;a class="reference external" href="https://trevorsomething.bandcamp.com/"&gt;https://trevorsomething.bandcamp.com/&lt;/a&gt;),
+[Droid Bishop](&lt;a class="reference external" href="https://droidbishop.bandcamp.com/"&gt;https://droidbishop.bandcamp.com/&lt;/a&gt;),
+[FM-84](&lt;a class="reference external" href="https://fm84.bandcamp.com/"&gt;https://fm84.bandcamp.com/&lt;/a&gt;)
+and
+[Daniel Deluxe](&lt;a class="reference external" href="https://danieldeluxe.bandcamp.com/"&gt;https://danieldeluxe.bandcamp.com/&lt;/a&gt;)&lt;/p&gt;
+</content><category term="thats"></category><category term="awesome"></category></entry></feed>
