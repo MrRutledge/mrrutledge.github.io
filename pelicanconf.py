@@ -6,7 +6,7 @@ AUTHOR = u'MrRutledge'
 SITENAME = u'MrRutledge'
 SITEURL = ''
 
-PATH = './content/'
+PATH = '.\content'
 OUTPUT_PATH = '../'
 
 #CURRENT_YEAR = time.strftime("%Y")
