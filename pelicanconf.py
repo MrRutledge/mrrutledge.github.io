@@ -46,6 +46,13 @@ MARKDOWN = {
     'lazy_ol': False 
 }
 
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+
+IGNORE_FILES = [".ipynb_checkpoints"] 
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
