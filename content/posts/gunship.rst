@@ -5,7 +5,6 @@ My super title
 :modified: 02-10-2004 18:40
 :tags: thats, awesome
 :category: yeah
-:slug: my-super-post
 :authors: Mr Rutledge
 :summary: Short version for index and feeds
 
