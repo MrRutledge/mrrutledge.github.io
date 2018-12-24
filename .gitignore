@@ -1,2 +1,21 @@
 ghdeploy.bat
 log.md
+
+checking.ipynb
+checking.nbdata
+
+alexis-metaireau.html
+conan-doyle.html
+
+ *.nbdata
+ *.ipynb
+
+#config files
+
+pelicanconf.py
+pelicanconf.pyc
+publishconf.py
+publishconf.pyc
+
+output/
+
