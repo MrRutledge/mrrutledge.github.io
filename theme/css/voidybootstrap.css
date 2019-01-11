@@ -1,12 +1,12 @@
 .navbar {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 img {
@@ -14,13 +14,13 @@ img {
 }
 
 #content {
-    padding-right: 50px; 
+    padding-right: 50px;
     line-height: 26px;
 }
 
 #content p {
-      margin-bottom: 24px;
-  }
+    margin-bottom: 24px;
+}
 
 p.standfirst {
     font-size: 18px;
@@ -35,29 +35,33 @@ p.standfirst {
     text-align: center;
 }
 
-.article-header-date, .article-header-info {
-	color: #999;
+.article-header-date,
+.article-header-info {
+    color: rgb(74, 126, 146);
 }
 
 .social-links {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .category-links {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .tag-1 {
-	font-size: 14pt;
+    font-size: 14pt;
 }
+
 .tag-2 {
-	font-size: 12pt;
+    font-size: 12pt;
 }
+
 .tag-3 {
-	font-size: 10pt;
+    font-size: 10pt;
 }
+
 .tag-4 {
-	font-size: 8pt;
+    font-size: 8pt;
 }
 
 .tag-cloud {
@@ -69,7 +73,7 @@ p.standfirst {
 }
 
 .home-top {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 #sidebar h4 {
@@ -77,8 +81,8 @@ p.standfirst {
 }
 
 #site-footer {
-    background: #eee;
-    border-top: 1px dotted #999;
+    background: rgba(193, 230, 233, 0.801);
+    border-top: 1px dotted #789;
     margin-top: 40px;
     padding-top: 20px;
 }
@@ -87,7 +91,7 @@ p.standfirst {
  * My preference for code blocks is no line wraps and horizontal scrolling.
  */
 #content pre {
-    border-left: 5px solid #999;
+    border-left: 5px solid #7894;
     overflow-x: auto;
     padding-left: 20px;
     word-break: normal;
@@ -96,5 +100,5 @@ p.standfirst {
 }
 
 dt {
-  margin-top: 10px;
+    margin-top: 10px;
 }
